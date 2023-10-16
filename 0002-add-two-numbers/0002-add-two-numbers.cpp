@@ -14,7 +14,6 @@ public:
         ListNode* responseNode = new ListNode();
         ListNode* tail = responseNode;
         int carrete = 0;
-        int totalSum = 0;
         while (l1 != nullptr || l2!= nullptr || carrete != 0) {
             int numberSum = (l1 != nullptr ? l1->val : 0) + (l2 != nullptr ? l2->val : 0) + carrete;
 
